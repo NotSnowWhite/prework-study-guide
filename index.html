@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -16,15 +17,33 @@
         <h2>HTML</h2>
         <ul>
           <li>We can use semantic HTML elements to indicate the role of their content, as well as to give structure to the content of the webpage</li>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>Head element: contains information about the webpage.</li>
+          <li>Body element: represents the visible content shown to the user.</li>
+          <li>Section element: designates and separates into sections for content</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet</li>
+          <li>Inline: style an element directly in the HTML file</li>
+          <li>Internal: embed an entire stylesheet directly in the HTML file using a -style- element in the -head- element</li>
+          <li>External: keep all the CSS rules in a separate file. When using an external style sheet, we link the file using a -link- element placed in the HTML's -head-</li>
+          <li>Selector: defines the element or attributes to which the rules, or declarations, will apply</li>
+          <li>Declarations: contain two important components: the CSS property we want to apply and the value of the property. For example, color: blue</li>
+          <li>Margin property: indicates how much space we want around the outside of an element. The margin is the transparent buffer outside an element</li>
+          <li>Padding property: adds space around the content inside an element. The padding, while transparent, is located inside the element </li>
+          <li>* selector: apply a rule to all the elements visible on the page</li>
+          <li>Combine two selectors into a single CSS rule with a comma, allowing the declarations to affect both selectors. For example, header, footer. Rather than repeating a rule which would add more lines of code and repetition, two or more elements that will share the same styling can be grouped together. This helps us write Do Not Repeat Yourself (DRY) code</li>
+          <li>Text-align: positioning property that centers a title or heading on a webpage</li>
+          <li>-img- selector: assigns property values to any image element in the markup</li>
+          <li>display property assigned with the block value: assigns each image to start on a new line</li>
+          <li>-link- element: creates the connection from the CSS file to the external file</li>
+          <li>rel attribute: specifies the relationship between the current document and the linked document resource</li>
+          <li>href attribute: specifies the location (URL) of the external resource. The href attribute uses a relative path, meaning the location is derived from the current location</li>
+          <li>Class attributes: allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. Then the class attribute can be assigned to the element in the HTML, enabling us to freely choose which elements will be assigned the CSS rule</li>
+          <li>Class selector: any HTML element assigned to the class selector will gain those property assignments from the CSS. For example, .card. The period card before designates it a class selector and any html element with the .card class will receive the assigned properties</li>
         </ul>
       </section>
    
