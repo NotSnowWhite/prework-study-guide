@@ -11,14 +11,15 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
           <li>We can use semantic HTML elements to indicate the role of their content, as well as to give structure to the content of the webpage</li>
-          <li>Head element: contains information about the webpage.</li>
-          <li>Body element: represents the visible content shown to the user.</li>
+          <li>Head element: contains information about the webpage</li>
+          <li>Body element: represents the visible content shown to the user</li>
           <li>Section element: designates and separates into sections for content</li>
         </ul>
       </section>
@@ -53,10 +54,10 @@
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git add -A: stages changes to add the changed files in our working directory to the staging area of Git</li>
-          (add -A: commits all files to the working branch)
+            <ul>add -A: commits all files to the working branch</ul>
           <li>git commit -m: commits changes to the repository so that it is up to date with our working directory</li>
-          (-m: associates a message to the commit. Commit messages are short, descriptive messages of the changes implemented)
-          <li>git pull origin main: sync local and remote branches; pull the base branch into your feature branch
+            <ul>-m: associates a message to the commit. Commit messages are short, descriptive messages of the changes implemented</ul>
+          <li>git pull origin main: sync local and remote branches; pull the base branch into your feature branch</li>
           <li>git push origin feature/name: push up all our changes</li>
           <li>It's important to frequently sync the local version of your code with the remote version in GitHub</li>
         </ul>
@@ -65,7 +66,40 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Javascript is case sensitve</li>
+          <li>A semicolon(;) at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line</li>
+          <li>Control flow: the order in which a computer executes code in a JavaScript file</li>
+          <li>Script element: applies the JavaScript to the page(like the link element for CSS), so it can have an effect on the HTML (along with the CSS, and anything else on the page)</li>
+          <li>Variables: a named container that holds or store values. For example, myVariable = "Gabi". "Gabi" is the value</li>
+          <li>const keyword: allows us to create variables that can't be reassigned a value. It essentially "locks down" what that variable will be, and once we declare it, we can never reassign it</li>
+          <li>let keyword: allows us to reassign the value of the variable over time</li>
+          <li>Types of Variables Data Types:</li>
+          <ul>String: a sequence of text enclosed in single or double quotation marks</ul>
+          <ul>Number: numbers. These do not need quotation marks</ul>
+          <ul>Boolean: a true/false value that does not need quotation marks</ul>
+          <ul>Array: a structure that allows you to store multiple values in a single reference. For example, let myVariable = [1,'Bob','Steve',10]; Refer to each member of the array as myVariable[0], myVariable[1], etc</ul>
+          <ul>Object: This can be anything. Everything in JavaScript is an object and can be stored in a variable</ul>
+          <li>Console.log method: output a message to the web console by adding an argument</li>
+            <ul>Console: is a test environment to check on code</ul>
+            <ul>.log(): is a set of instructions for the computer to follow. Whatever is put inside the parentheses will be output</ul>
+          <li>Comments: snippets of text that can be added along with code. Placed between /* */ or, if without link breaks, behind two slashes //</li>
+          <li>Operator: a mathematical symbol that produces a result based on two values (or variables)</li>
+          <li>Conditionals: code structures used to test if an expression returns true or not. A very common form of conditionals is the if...else statement</li>
+          <li>Funtions: reusable blocks of code that contain instructions for a computer to perform a specific task, but executes only when called. Means you can control where in the control flow a task is executed, or if at all. Variable name followed by parentheses is likely a function</li>
+          <li>Arguments: bits of data to go inside the parentheses, separated by commas if there is more than one argument</li>
+          <li>The code to be executed is written inside the curly brackets {}</li>
+          <li>Event handlers: code structures that listen for activity in the browser, and run code in response. For example, a click event which is fired when you click on something with the mouse</li>
+          <li>undefined indicates the absence of a value, while null indicates the absence of an object </li>
+          <li>conditional statements and loops: control the order in which code is executed, or if it is even executed at all; lets us alter the control flow so that code executes only if a certain condition is met</li>
+          <li>if statement: code will only execute if the statement meets a condition, or is true</li>
+          <li>Strict equality operator (===): checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal</li>
+          <li>Array: is a single variable that is used to hold a group of data</li>
+          <li>Index: a unique number that identifies the location of the data item in an array, or location number, allowing access to individual items in an array. Programs typically have an index of 0</li>
+          <li>A for loop: uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. we can tell the computer to go through each of the tasks in our array and log them to the console until there are no tasks left</li>
+            <ul>Starting point: start at the beginnging of the array by declaring a variable x with a value of 0 since the first index is always 0 (let x = 0)</ul>
+            <ul>Second statement - condition: as long as the number in variable x is less than the length of the array, the loop will keep running. length is a built-in array property to express the condition of executing once for each item (x < shapes.length)</ul>
+            <ul>final statement: allows the array to iterate over each item. x++ is a shortcut to x+1. Now each loop, x increases by 1</ul>
+          <li>Commenting out code: makes it inactive without deleting it, just in case you need it later. To comment out multiple lines of JavaScript code, put /* before and */ after the block of code</li>
         </ul>
       </section>
     </main>
@@ -73,5 +107,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
